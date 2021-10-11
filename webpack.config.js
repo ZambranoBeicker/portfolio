@@ -22,6 +22,10 @@ module.exports = {
         use: [MiniCssExtractPlugin.loader, "css-loader", "postcss-loader"],
       },
       { test: /.js$/, use: "babel-loader", exclude: /node_modules/ },
+      {
+        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        type: "asset/resource",
+      },
     ],
   },
   plugins: [
