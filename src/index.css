@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --color-primary-dark: #330036;
+  --color-secondary-dark: #5e0064;
+  --color-primary-light: #fdfaf2;
+}
+
 h1,
 h2,
 h3,
@@ -15,4 +21,20 @@ p {
 }
 h1 {
   @apply text-3xl font-bold;
+}
+
+.btn {
+  @apply cursor-pointer px-8 py-2.5 rounded-md;
+}
+
+.bg-primary {
+  background: var(--color-secondary-dark);
+}
+
+.color-primary {
+  color: var(--color-primary-dark);
+}
+
+.color-secondary {
+  color: var(--color-secondary-dark);
 }
