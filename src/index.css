@@ -28,6 +28,10 @@ h5 {
   @apply color-primary;
 }
 
+section {
+  @apply container mb-14 text-center px-4 mx-auto;
+}
+
 .btn--primary {
   @apply text-white bg-primary cursor-pointer px-8 py-2.5 rounded-md;
 }
