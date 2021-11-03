@@ -42,21 +42,31 @@
         </div>
       </section>
     </div>
-    <section>
-      <div>
-        <h2 class="mb-8 text-2xl">Sobre mí</h2>
+    <section class="lg:flex justify-between items-center">
+      <div class="lg:w-4/12">
+        <div class="">
+          <h2 class="mb-8">Sobre mí</h2>
 
-        <p>
-          React Developer, amante del arte y los videojuegos. Mi misión es
-          contribuir al desarrollo tecnologico y cultural latinoamericano
-        </p>
+          <p>
+            React Developer, amante del arte y los videojuegos. Mi misión es
+            contribuir al desarrollo tecnologico y cultural latinoamericano
+          </p>
+        </div>
+
+        <div class="mt-8">
+          <button class="uppercase btn--secondary">Descargar CV</button>
+        </div>
       </div>
 
-      <div class="mt-8">
-        <button class="uppercase btn--secondary">Descargar CV</button>
-      </div>
-
-      <ul class="grid grid-cols-2 grid-rows-3 mt-8 p-8 gap-6">
+      <ul
+        class="
+          grid grid-cols-2 grid-rows-3
+          lg:grid-cols-3 lg:grid-rows-2
+          mt-8
+          p-8
+          gap-6
+        "
+      >
         <li class="block p-8 rounded-lg shadow-lg">
           <figure class="items-center flex flex-col justify-between">
             <img
@@ -123,7 +133,7 @@
     </section>
 
     <section>
-      <h2 class="text-2xl">Habilidades</h2>
+      <h2 class="">Habilidades</h2>
 
       <div class="mx-auto w-11/12 mt-14">
         <figure>
@@ -224,7 +234,7 @@
       </div>
     </section>
     <section>
-      <h2 class="text-2xl">Proyectos</h2>
+      <h2 class="">Proyectos</h2>
 
       <div class="mt-14 w-11/12 mx-auto">
         <article class="my-8 rounded-lg overflow-hidden shadow-md pb-4">
@@ -279,7 +289,7 @@
     </section>
 
     <section>
-      <h2 class="text-2xl my-4">¡Contáctame!</h2>
+      <h2 class="my-4">¡Contáctame!</h2>
 
       <p>
         Enviame un mail a:

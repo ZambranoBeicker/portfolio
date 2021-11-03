@@ -28,6 +28,10 @@ h5 {
   @apply color-primary;
 }
 
+h2 {
+  @apply text-2xl lg:text-4xl;
+}
+
 section {
   @apply container mb-14 text-center px-4 mx-auto;
 }
