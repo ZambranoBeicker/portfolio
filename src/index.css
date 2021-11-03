@@ -23,6 +23,11 @@ h1 {
   @apply text-3xl font-bold;
 }
 
+h2,
+h5 {
+  @apply color-primary;
+}
+
 .btn {
   @apply cursor-pointer px-8 py-2.5 rounded-md;
 }
