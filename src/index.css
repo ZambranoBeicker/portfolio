@@ -20,7 +20,7 @@ p {
   font-family: "Poppins", sans-serif;
 }
 h1 {
-  @apply text-3xl font-bold;
+  @apply text-3xl font-bold lg:text-6xl;
 }
 
 h2,
