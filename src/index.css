@@ -8,6 +8,7 @@
   --color-primary-light: #fdfaf2;
 }
 
+span,
 h1,
 h2,
 h3,
@@ -34,6 +35,10 @@ h2 {
 
 section {
   @apply container mb-14 text-center px-4 mx-auto;
+}
+
+span {
+  @apply inline-block my-1 border mx-1 px-8 py-1 rounded-3xl text-sm text-xs;
 }
 
 .btn--primary {
