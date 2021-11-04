@@ -24,6 +24,8 @@ h1 {
   @apply text-3xl font-bold lg:text-6xl;
 }
 
+figcaption,
+p,
 h2,
 h5 {
   @apply color-primary;
