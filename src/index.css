@@ -40,7 +40,9 @@ section {
 }
 
 span {
-  @apply inline-block my-1 border mx-1 px-8 py-1 rounded-3xl text-sm text-xs;
+  @apply inline-block my-1 border mx-1 px-6 py-1 rounded-3xl text-sm text-xs;
+  color: rgba(0, 0, 0, 0.45);
+  border: 1px solid rgba(0, 0, 0, 0.45);
 }
 
 .btn--primary {
